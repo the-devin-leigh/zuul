@@ -66,7 +66,7 @@ int main()
   strcpy(room14->getDescription(), "A narrow stairwell beckons you. It's one of those ancient spiralling ones.");
   Room* room15 = new Room();
   strcpy(room15->getName(), "South Gallery");
-  strcpy(room15->getDescription(), "A fully windowed room. The windows look breakable. You can see your surroundings. The mansion is in the middle of a vast forest.");
+  strcpy(room15->getDescription(), "A fully windowed room. The windows look breakable. You can see your surroundings. The mansion is in the middle of a vast forest. If you think you can interact with the windows, press enter.");
   Room* room16 = new Room();
   strcpy(room16->getName(), "Garden");
   strcpy(room16->getDescription(), "Tall hedges line a barren garden. You're not escaping through here.");

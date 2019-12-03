@@ -69,9 +69,9 @@ bool Commands::processCommand(char* str, Player* player){ //interprets user inpu
 	  return false;
 	}else{
 	  return true;
-	}
-  }
-  else if(strcmp(str, "exit") == 0){//returns false 
+	  }
+     }
+  else if(strcmp(str, "exit") == 0){ 
 	cout << "Thanks for playing." << endl;
     return false;
   }
