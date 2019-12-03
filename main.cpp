@@ -1,3 +1,9 @@
+/*Author: Devin Leigh
+  Project: Zuul Game - text based adventure
+  Date: 12/2/2019
+
+ */
+
 #include <iostream>
 #include <cstring>
 #include "room.h"
