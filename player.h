@@ -1,5 +1,8 @@
 //player header file
 
+#ifndef PLAYER_H
+#define PLAYER_H
+
 #include <iostream>
 #include <cstring>
 #include <vector>
@@ -23,3 +26,5 @@ private:
   vector<Item*> items;
   Room* currentRoom;
 };
+
+#endif

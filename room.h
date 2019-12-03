@@ -1,5 +1,8 @@
 //room header file
 
+#ifndef ROOM_H
+#define ROOM_H
+
 #include <iostream>
 #include <cstring>
 #include <vector>
@@ -30,3 +33,4 @@ class Room{
   map<const char*, Room*> exits;
 };
 
+#endif

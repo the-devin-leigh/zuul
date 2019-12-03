@@ -52,7 +52,7 @@ bool Player::validItem(char* itemName){ //checks if item requested exists
 }
 
 bool Player::keyItem(char* itemName){ //checks if player has key item
-  const char str[10] = {"Hammer"}; //main item
+  const char* str[7] = {"Hammer"}; //main item
   for(int i = 0; i < 5; i++){
     if(strcmp(str[i], itemName) == 0){
 	  return true;
